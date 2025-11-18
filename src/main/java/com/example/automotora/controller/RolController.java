@@ -20,7 +20,7 @@ import com.example.automotora.model.Rol;
 import com.example.automotora.service.RolService;
 
 @RestController
-@RequestMapping("/api/roles")
+@RequestMapping("/api/v1/roles")
 public class RolController {
 
     @Autowired

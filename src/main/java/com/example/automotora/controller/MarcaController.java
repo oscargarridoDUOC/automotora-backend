@@ -21,7 +21,7 @@ import com.example.automotora.model.Marca;
 import com.example.automotora.service.MarcaService;
 
 @RestController
-@RequestMapping("/api/marcas")
+@RequestMapping("/api/v1/marcas")
 public class MarcaController {
 
     @Autowired

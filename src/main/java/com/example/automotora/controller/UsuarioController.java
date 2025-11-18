@@ -21,7 +21,7 @@ import com.example.automotora.model.Usuario;
 import com.example.automotora.service.UsuarioService;
 
 @RestController
-@RequestMapping("/api/usuarios")
+@RequestMapping("/api/v1/usuarios")
 public class UsuarioController {
 
     @Autowired

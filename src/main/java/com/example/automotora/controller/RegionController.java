@@ -21,7 +21,7 @@ import com.example.automotora.model.Region;
 import com.example.automotora.service.RegionService;
 
 @RestController
-@RequestMapping("/api/regiones")
+@RequestMapping("/api/v1/regiones")
 public class RegionController {
 
     @Autowired
