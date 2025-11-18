@@ -21,7 +21,7 @@ import com.example.automotora.model.Categoria;
 import com.example.automotora.service.CategoriaService;
 
 @RestController
-@RequestMapping("/api/categorias")
+@RequestMapping("/api/v1/categorias")
 public class CategoriaController {
 
     @Autowired

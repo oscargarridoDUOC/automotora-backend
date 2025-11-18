@@ -21,7 +21,7 @@ import com.example.automotora.model.Concesionario;
 import com.example.automotora.service.ConcesionarioService;
 
 @RestController
-@RequestMapping("/api/concesionarios")
+@RequestMapping("/api/v1/concesionarios")
 public class ConcesionarioController {
 
     @Autowired

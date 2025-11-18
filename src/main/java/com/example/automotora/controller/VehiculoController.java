@@ -20,7 +20,7 @@ import com.example.automotora.model.Vehiculo;
 import com.example.automotora.service.VehiculoService;
 
 @RestController
-@RequestMapping("/api/vehiculos")
+@RequestMapping("/api/v1/vehiculos")
 public class VehiculoController {
 
     @Autowired

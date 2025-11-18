@@ -21,7 +21,7 @@ import com.example.automotora.model.Transmision;
 import com.example.automotora.service.TransmisionService;
 
 @RestController
-@RequestMapping("/api/transmisiones")
+@RequestMapping("/api/v1/transmisiones")
 public class TransmisionController {
 
     @Autowired

@@ -21,7 +21,7 @@ import com.example.automotora.model.Combustible;
 import com.example.automotora.service.CombustibleService;
 
 @RestController
-@RequestMapping("/api/combustibles")
+@RequestMapping("/api/v1/combustibles")
 public class CombustibleController {
 
     @Autowired

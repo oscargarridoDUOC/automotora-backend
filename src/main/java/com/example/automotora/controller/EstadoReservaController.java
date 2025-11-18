@@ -20,7 +20,7 @@ import com.example.automotora.model.EstadoReserva;
 import com.example.automotora.service.EstadoReservaService;
 
 @RestController
-@RequestMapping("/api/estados-reserva")
+@RequestMapping("/api/v1/estados-reserva")
 public class EstadoReservaController {
 
     @Autowired
